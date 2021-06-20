@@ -1,1 +1,12 @@
 // TODO
+.main{
+    margin: 56px auto 56px 370px;
+  > span{
+    color: var(--Highlight);
+    font-weight: 600;
+  }
+}
+
+.posts{
+  margin-bottom: 40px;
+}

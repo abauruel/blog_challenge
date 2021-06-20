@@ -2,6 +2,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
-// TODO
+
+:root{
+  --Background: #1A1D23;
+  --Body: #d7d7d7;
+  --Info: #bbbbbb;
+
+  --Heading: #f8f8f8;
+  --Highlight: #ff57b2;
+
+}
+
+body{
+  background: var(--Background);
+  color: var(--Body);
+  font-family: 'Inter';
+  font-size: 18px;
+
+}

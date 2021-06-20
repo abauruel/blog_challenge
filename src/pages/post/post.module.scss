@@ -1,1 +1,35 @@
 // TODO
+.banner{
+  height: 400px;
+  width: 100%;
+  background-size: contain;
+}
+
+.content{
+  margin-top: 80px;
+  margin-left: 370px;
+  max-width: 721px;
+  h1{
+    font-size: 48px;
+    font-weight: 700;
+  }
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  margin: 24px 0 24px;
+svg{
+  width: 20px;
+  height: 20px;
+}
+
+  svg:not(:first-child) {
+    margin-left: 24px;
+  }
+
+  span{
+    margin-left: 8px;
+    font-size: 16px;
+  }
+}

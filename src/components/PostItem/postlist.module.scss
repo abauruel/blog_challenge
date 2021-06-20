@@ -1,0 +1,38 @@
+.post{
+  margin: 24px 0 24px;
+  a{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--Heading);
+    text-decoration: none;
+  }
+  p{
+    margin-top: 8px;
+  }
+
+}
+
+.info{
+ display: flex;
+ flex-direction: row;
+ margin-top: 24px;
+
+}
+.dateContainer{
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  span{
+    margin-left: 8px;
+    font-size: 14px;
+  }
+}
+
+.authorContainer{
+  display: flex;
+  align-items: center;
+  span{
+    margin-left: 8px;
+    font-size: 14px;
+  }
+}
